@@ -8,29 +8,34 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
- 
+
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {
-        if (head == nullptr || head->next == nullptr) return head;
-        int len = 0;
-        std::vector<int> array(5000);
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        if (head == nullptr) return head;
+        
         ListNode* p = head;
+        int len = 0;
+        std::vector<int> arr(30);
         while(p){
-            array[len] = p->val;
+            arr[len] = p->val;
             p = p->next;
             len++;
         }
-
-        ListNode* tail = new ListNode(array[len-1]);
-        for (int i = 0; i < len - 1; i++){
-            ListNode* q = new ListNode(array[i]);
-            q->next = tail->next;
-            tail->next = q;
+        if (len == 1){
+            ListNode* a = nullptr;
+            return a;
         }
-        return tail;
+        if (n == len) return head->next;
+        p = head;
+        for(int i = 1; i <= len - n - 1; i++) p = p->next;
+        if (n == 1) p->next = nullptr;
+        else p->next = p->next->next;
+
+        return head;
     }
 };
+
 
 ListNode* create(std::vector<int>& arr){
     // if (arr.empty()) return tail;
@@ -46,9 +51,12 @@ ListNode* create(std::vector<int>& arr){
 }
 
 int main(){
-    std::vector<int> arr = {1,2,3,4,5};
+    // std::vector<int> arr = {1,2,3,4,5};
+    std::vector<int> arr = {1,2};
     ListNode* head = create(arr);
+    int n;
+    std::cin >> n;
     Solution solution;
-    ListNode* ans = solution.reverseList(head);
+    ListNode* ans = solution.removeNthFromEnd(head, n);
     std::cin.get();
 }
