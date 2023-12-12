@@ -1,7 +1,7 @@
-#include<iostream>
-#include<vector>
-#include<unordered_map>
-#include<unordered_set>
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+#include <unordered_set>
 #include <algorithm>
 
 class Solution {
@@ -18,13 +18,12 @@ public:
                 return seed;
             }
         };
-
+        
         std::unordered_set<std::vector<int>, VectorHash> ans_set;
         std::unordered_set<int> set;
-        set.insert(nums[0]);
+        
         for(int i = 0; i <= nums.size() - 3; i++){
-            
-            // std::unordered_map<int, int> map;
+            set.insert(nums[i]);
             for(int j = i + 1; j <= nums.size() - 1; j++){
                 if (set.find(nums[j]) == set.end()) set.insert(nums[j]);
                 if (set.find(-nums[i] - nums[j]) != set.end()){
@@ -37,6 +36,16 @@ public:
             }
 
         }
+        /*
+        for (int i = 0; i <= nums.size() - 3; i++){
+            for(int j = i + 1; j <= nums.size() - 1; j++){
+
+            }
+
+        }
+        */
+
+
         for (auto list: ans_set) ans.push_back(list);
         return ans;
 
