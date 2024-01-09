@@ -22,10 +22,12 @@ public:
         }
         reversed.pop_back();
         auto it = reversed.begin();
+        // 删除反转后串前空格
         while(*it == ' '){
             it++;
             reversed.erase(it-1);
         }
+        // 删除串中连续多余空格
         for (auto it = reversed.begin(); it != reversed.end(); it++)
             if (*it == ' ' && *(it+1) == ' ') reversed.erase(it+1);
         return reversed;
