@@ -25,7 +25,7 @@ public:
                         tmp += (tokens[i][j] - '0') * t;
                         t *= 10;
                     }
-                    tmp = -tmp;
+                    // tmp = -tmp;
                     st.push(tmp);
                 }
 
