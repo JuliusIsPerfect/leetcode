@@ -2,34 +2,12 @@
 #include <queue>
 #include <map>
 #include <unordered_set>
+#include <algorithm>
 
 class Solution {
 public:
-    class myQueue{
-    public:
-        std::deque<int> q;
-
-        void pop(int value){
-            if (!q.empty() && q.front() == value) q.pop_front();
-        }
-
-        void push(int value){
-            while (!q.empty() && q.back() < value){ // 不能取<=，因为可以存在不止一个最大值
-                q.pop_back();
-            }
-            q.push_back(value);
-
-        }
-
-        int front(){
-            return q.front();
-        }
-
-    };
     std::vector<int> topKFrequent(std::vector<int>& nums, int k) {
-        std::unordered_multiset<int> set;
         std::map<int, int> map;
-        myQueue que;
         std::vector<int> result;
 
         for (int i = 0; i < nums.size(); i++){
@@ -37,11 +15,26 @@ public:
             // else map[nums[i]]++;
             map[nums[i]]++;
         }
-        
+        /*
         auto it = map.begin();
         for (int i = 0; i < k; i++){
             result.push_back(it->first);
             it++;
+        }        
+        */
+        // map迭代器创建vector
+        // std::map中的每一个元素都是一个std::pair
+        // 键值对的键是pair::first，值是pair::second
+        std::vector<std::pair<int, int>> vec(map.begin(), map.end());
+
+        // 如果比较函数返回true，那么第一个参数应该在第二个参数之前
+        std::sort(vec.begin(), vec.end(), 
+        [](const std::pair<int, int>& a, const std::pair<int, int>& b) {
+            return a.second > b.second;
+        });
+
+        for (int i = 0; i < k && i < vec.size(); i++){
+            result.push_back(vec[i].first);
         }
 
         return result;
