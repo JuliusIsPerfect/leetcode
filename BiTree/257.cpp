@@ -32,7 +32,7 @@ public:
 
         if (cur->left){
             travel(cur->left, path, result);
-            path.pop_back();
+            path.pop_back(); // 完成了对 cur->left 子树的遍历，弹出这个节点
         }
         if (cur->right){
             travel(cur->right, path, result);
