@@ -1,0 +1,10 @@
+{
+    "version": "0.1.0",
+    "compile_commands": [
+        {
+            "directory": "/Users/fxh/Documents/leetcode/build",
+            "command": "clang++ -std=c++11 -o main.o -c /Users/fxh/Documents/leetcode/main.cpp",
+            "file": "/Users/fxh/Documents/leetcode/main.cpp"
+        }
+    ]
+}
