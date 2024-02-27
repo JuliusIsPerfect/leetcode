@@ -1,0 +1,86 @@
+[
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/array",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/209.dir/209.cpp.o -c /Users/fxh/Documents/leetcode/array/209.cpp",
+  "file": "/Users/fxh/Documents/leetcode/array/209.cpp",
+  "output": "array/CMakeFiles/209.dir/209.cpp.o"
+},
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/array",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/27.dir/27.cpp.o -c /Users/fxh/Documents/leetcode/array/27.cpp",
+  "file": "/Users/fxh/Documents/leetcode/array/27.cpp",
+  "output": "array/CMakeFiles/27.dir/27.cpp.o"
+},
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/array",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/35.dir/35.cpp.o -c /Users/fxh/Documents/leetcode/array/35.cpp",
+  "file": "/Users/fxh/Documents/leetcode/array/35.cpp",
+  "output": "array/CMakeFiles/35.dir/35.cpp.o"
+},
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/array",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/59.dir/59.cpp.o -c /Users/fxh/Documents/leetcode/array/59.cpp",
+  "file": "/Users/fxh/Documents/leetcode/array/59.cpp",
+  "output": "array/CMakeFiles/59.dir/59.cpp.o"
+},
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/array",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/704.dir/704.cpp.o -c /Users/fxh/Documents/leetcode/array/704.cpp",
+  "file": "/Users/fxh/Documents/leetcode/array/704.cpp",
+  "output": "array/CMakeFiles/704.dir/704.cpp.o"
+},
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/array",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/977.dir/977.cpp.o -c /Users/fxh/Documents/leetcode/array/977.cpp",
+  "file": "/Users/fxh/Documents/leetcode/array/977.cpp",
+  "output": "array/CMakeFiles/977.dir/977.cpp.o"
+},
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/array",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/LCR146.dir/LCR146.cpp.o -c /Users/fxh/Documents/leetcode/array/LCR146.cpp",
+  "file": "/Users/fxh/Documents/leetcode/array/LCR146.cpp",
+  "output": "array/CMakeFiles/LCR146.dir/LCR146.cpp.o"
+},
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/backtracking",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/131.dir/131.cpp.o -c /Users/fxh/Documents/leetcode/backtracking/131.cpp",
+  "file": "/Users/fxh/Documents/leetcode/backtracking/131.cpp",
+  "output": "backtracking/CMakeFiles/131.dir/131.cpp.o"
+},
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/backtracking",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/17.dir/17.cpp.o -c /Users/fxh/Documents/leetcode/backtracking/17.cpp",
+  "file": "/Users/fxh/Documents/leetcode/backtracking/17.cpp",
+  "output": "backtracking/CMakeFiles/17.dir/17.cpp.o"
+},
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/backtracking",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/216.dir/216.cpp.o -c /Users/fxh/Documents/leetcode/backtracking/216.cpp",
+  "file": "/Users/fxh/Documents/leetcode/backtracking/216.cpp",
+  "output": "backtracking/CMakeFiles/216.dir/216.cpp.o"
+},
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/backtracking",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/39.dir/39.cpp.o -c /Users/fxh/Documents/leetcode/backtracking/39.cpp",
+  "file": "/Users/fxh/Documents/leetcode/backtracking/39.cpp",
+  "output": "backtracking/CMakeFiles/39.dir/39.cpp.o"
+},
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/backtracking",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/40.dir/40.cpp.o -c /Users/fxh/Documents/leetcode/backtracking/40.cpp",
+  "file": "/Users/fxh/Documents/leetcode/backtracking/40.cpp",
+  "output": "backtracking/CMakeFiles/40.dir/40.cpp.o"
+},
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/backtracking",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/77.dir/77.cpp.o -c /Users/fxh/Documents/leetcode/backtracking/77.cpp",
+  "file": "/Users/fxh/Documents/leetcode/backtracking/77.cpp",
+  "output": "backtracking/CMakeFiles/77.dir/77.cpp.o"
+},
+{
+  "directory": "/Users/fxh/Documents/leetcode/build/backtracking",
+  "command": "clang++   -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/93.dir/93.cpp.o -c /Users/fxh/Documents/leetcode/backtracking/93.cpp",
+  "file": "/Users/fxh/Documents/leetcode/backtracking/93.cpp",
+  "output": "backtracking/CMakeFiles/93.dir/93.cpp.o"
+}
+]
